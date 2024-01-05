@@ -1,0 +1,79 @@
+ .ContactContainer{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:35vh;
+    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+    background-color: #121619;
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+ }
+ 
+ h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 3vh;
+    text-align: center;
+    color:whitesmoke;
+  
+}
+ h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:20vw;
+    line-height: 1px;
+    padding-top: 3vh;
+}
+
+.nameInput{
+    padding-left: 20vw;
+    padding-bottom: 3vh;
+
+} 
+
+.custom-input{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50vw;
+    /* Additional styles */
+    background-color: #f7f7f7;
+    color: #333;    
+} 
+
+.emailInput{
+    padding-left: 20vw;
+    padding-bottom: 3vh;
+} 
+
+.subjectInput{
+    padding-left: 20vw;
+    padding-bottom: 3vh;
+
+} 
+.messageInput{
+    padding-left: 20vw;
+    padding-bottom: 3vh;
+}
+.buttonContainer{
+    padding-top: 3vh;
+    padding-left: 20vw;
+    padding-bottom: 3vh;
+}
+
+.button{
+    
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10vw;
+    /* Additional styles */
+    background-color: #f7f7f7;
+    color: #333;
+    
+}
+

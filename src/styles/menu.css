@@ -1,0 +1,41 @@
+.Team{
+  background-color: #121619;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Team h1{
+  line-height: 1;
+  margin-left: 10vw;
+  padding-left: 10px;
+  text-align: left;
+  color:whitesmoke;
+  font-weight: lighter;
+
+}
+  
+.TeamList {
+  border: 3px;
+ 
+  margin-left: 10vw;
+  width: 80vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  font-size: large;
+
+  
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .TeamList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+  
+@media only screen and (max-width: 800px) {
+  .TeamList {
+    grid-template-columns: 1fr;
+  }
+}
