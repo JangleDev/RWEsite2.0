@@ -1,0 +1,8 @@
+.img-slider-img{
+    padding-top: 5vh;
+    object-fit: cover;
+    width: 30vw;
+    height: 30vh;
+    display: block;
+    align-items: center;
+}

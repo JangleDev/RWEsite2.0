@@ -6,48 +6,27 @@ import '../styles/menu.css'
 function Team() {
   return (
     <div className = "Team">
-
-      <h1>Executive Board</h1>
+      <div className="TeamHeader">
+        <h1>Meet the team working to provide students with an opportunity to gain hands-on engineering experience 
+          within the collaborative space being fostered at RWE.
+        </h1>
+      </div>
       <div className="TeamList">
-        {TeamList[0].map((teamMember,key) =>{
+        {TeamList.map((teamMember,key) =>{
+          const linkedinLink = teamMember.link;
           return (
-            <TeamMember 
-              key={key} 
-              photo={teamMember.photo} 
-              name ={teamMember.name} 
-              role={teamMember.role}
-            />
+            <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+              <TeamMember 
+                key={key} 
+                photo={teamMember.photo} 
+                name ={teamMember.name} 
+                role={teamMember.role}
+              />
+            </a>  
           );
         })}
       </div>
 
-      <h1>Solar Drone Design Team</h1>
-      <div className="TeamList">
-        {TeamList[1].map((teamMember,key) =>{
-          return (
-            <TeamMember 
-              key={key} 
-              photo={teamMember.photo} 
-              name ={teamMember.name} 
-              role={teamMember.role}
-            />
-          );
-        })}
-      </div>  
-
-      <h1>Business Board</h1>
-      <div className="TeamList">
-        {TeamList[2].map((teamMember,key) =>{
-          return (
-            <TeamMember 
-              key={key} 
-              photo={teamMember.photo} 
-              name ={teamMember.name} 
-              role={teamMember.role}
-            />
-          );
-        })}
-      </div>  
           
   </div>
   );

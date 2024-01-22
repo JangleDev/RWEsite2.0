@@ -5,7 +5,7 @@
     justify-content: center;
     height:35vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #121619;
+    background-color: whitesmoke;
     padding: 5vw;
     
 }
@@ -16,7 +16,7 @@
     align-items:left;
     justify-content: left;
     height:45vh;
-    background-color: whitesmoke;
+    background-color: #1d2328;
     padding: 5vh;
     
 }
@@ -24,7 +24,7 @@
     
     font-weight: lighter;
     padding-right: 4vw;
-    color: #121619;
+    color: whitesmoke;
     
     text-align: left;
     
@@ -33,7 +33,7 @@
 
 .headerContainer img{
     width: 20vw;
-    margin-top: 5vh;
+    margin-top: 6vh;
     
 }
 .headerContainer h1{

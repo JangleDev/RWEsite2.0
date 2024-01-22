@@ -1,49 +1,41 @@
 /* MENU ITEM STYLING */
 .TeamMember{
     
-    padding-bottom: 25px;
+    padding-bottom: 10%;
     position: relative;
     display: inline-block;
 }
 
 .TeamMember img{
-
-
-    width: 25vw;
-   
-
+    width: 40vw;
     overflow: hidden;
     height: auto;
     display: grid;
- 
     place-items: center;
     font-size: small;
 }
 .TeamMember .MemberDescriptor{
     position: absolute;
-    top: 74%; /* Adjust top, left, width, height as needed */
+    top: 79%; /* Adjust top, left, width, height as needed */
     left: 0%;
-    width: 25vw;
-    height: 20%;
-    background-color: rgba(0, 0, 0, 0.7); 
- 
+    width: 40vw;
+    height: 12%;
+    background-color: rgba(11, 14, 16, 0.90); 
     color: whitesmoke;
     line-height: 1px;
-    border-top: none;
-    
+    border-top: none;  
+    padding-bottom: 0.5%;
 }
-.TeamMember .MemberDescriptor h3{
-    
-    font-size: x-large;
-    padding-left: 1%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-.TeamMember .MemberDescriptor p{
 
-    font-size: medium;
-    padding-left: 1%;
+.TeamMember .MemberDescriptor h3{
+    font-size: 30px;
+    padding-left: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+.TeamMember .MemberDescriptor p{
+    font-size: 20px;
+    padding-left: 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
       

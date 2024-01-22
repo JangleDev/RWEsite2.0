@@ -13,18 +13,18 @@ function Navbar() {
   return (
     <div className ="navbar">
         <div className="leftSide" id={openLinks ? "open" : "close"}>
-            <h1>RWE</h1>
+            <h1>
+                <Link to="/">RWE</Link>
+            </h1>
             <div className="hiddenLinks">
                 <Link to="/">Home</Link>
                 <Link to="/team"> Team</Link>
-                <Link to="/about"> About</Link>
                 <Link to="/contact"> Contact</Link>
             </div>
         </div>
         <div className="rightSide">
             <Link to="/">Home</Link>
             <Link to="/team"> Team</Link>
-            <Link to="/about"> About</Link>
             <Link to="/contact"> Contact</Link>
             <button onClick ={toggleNavbar}>
                 <BarsOutlined />

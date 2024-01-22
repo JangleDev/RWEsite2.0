@@ -1,9 +1,12 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import Slideshowhelper from '../helpers/Slideshowhelper'
 import BannerImage from '../assets/RWEPhoto1.png'
 import Logo from '../assets/RWELogoNoBG.png'
 import '../styles/Home.css'
 import MAELogo from '../assets/MAE_Logo_5.png'
+
+
 
 function Home() {
   return (
@@ -20,6 +23,17 @@ function Home() {
 We were founded in Summer 2022, and since then we have grown, learned, and solidified our purpose and goal. We have developed our first project, the Solar Drone Design Team, and have had tremendous success since. 
 </h1>
             <img src={MAELogo}/>
+        </div>
+        
+        <Slideshowhelper/>
+        
+        <div className="headerContainer">
+            
+            <div classname="left-side">
+              <img src={Logo}/>
+              
+            </div>
+          
         </div>
 
     </div>

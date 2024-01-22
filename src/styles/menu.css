@@ -1,26 +1,43 @@
 .Team{
-  background-color: #121619;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  background-color: whitesmoke;
+  padding-top: 10vh;
+  
 }
 .Team h1{
-  line-height: 1;
-  margin-left: 10vw;
-  padding-left: 10px;
+  
+  padding-top: 10vh;
   text-align: left;
+  padding-left: 7.5vw;
+  padding-right: 40vw;
   color:whitesmoke;
-  font-weight: lighter;
+  font-size: 50px;
+  font-weight: 100;
+  
 
+}
+.TeamHeader {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  height:40vh;
+  /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+  background-color: #1d2328;
+  padding-bottom: 50px;
+  
+
+  
 }
   
 .TeamList {
   border: 3px;
+  padding-top: 10vh;
  
-  margin-left: 10vw;
-  width: 80vw;
+  margin-left: 5vw;
+  width: 90vw;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   place-items: center;
   font-size: large;
 
