@@ -4,6 +4,8 @@ import Footer from './components/Footer'
 import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import Donate from './pages/Donate';
+
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
           <Route path="/" exact element={<Home/>}/>
           <Route path="/team" exact element={<Team/>} />
           <Route path="/contact" exact element={<Contact/>}/>
+          <Route path="/donate" exact element={<Donate/>}/>
         </Routes>
         <Footer />
       </Router>

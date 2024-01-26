@@ -1,109 +1,107 @@
 .navbar {
-    width: 100%;
-    height: 10vh;
-    /** background-color: whitesmoke; **/
-    background-color: whitesmoke;
-    display: flex;
-    position: fixed;
-    border-bottom:  3px solid #1d2328 ;
-    flex-direction: row;
-    z-index: 1000;
-   
-  }
-  .navbar h1 {
-   color: whitesmoke;
-   padding-top: 30px;
-   
-   
-  }
+  width: 100%;
+  height: 10vh;
+  /** background-color: whitesmoke; **/
+  background-color: #1d2328 ;
+  display: flex;
+  position: fixed;
+  border-bottom:  3px solid #1d2328 ;
+  flex-direction: row;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  color: whitesmoke;
+}
   
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;  
+}
+  
+.navbar .leftSide img {
+  width: 300px;
+  height: 300px;
+  padding-top: 8vh;
+}
+  
+.navbar .rightSide {
+  flex: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 20px;
+  font-weight:540;
+  font-size: larger;
+}
+  
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+  
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+  
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+  
+.navbar #close img {
+  display: inherit;
+}
+  
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+  
+.navbar #close .hiddenLinks {
+  display: none;
+}
+  
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
   .navbar .leftSide {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 100px;
+    padding-left: 50px;
   }
+}
   
-  .navbar .leftSide img {
-    width: 80px;
-    height: 80px;
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
   }
   
   .navbar .rightSide {
-    flex: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .navbar a {
-    color: #1d2328;
-    text-decoration: none;
-    margin: 20px;
-    font-weight:540;
-    font-size: larger;
+    justify-content: flex-end;
+    padding-right: 50px;
   }
   
   .navbar .rightSide button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .navbar .rightSide svg {
-    font-size: 40px;
-  }
-  
-  .navbar #open {
-    padding-left: 0px;
-  }
-  .navbar #open img {
-    display: none;
-  }
-  
-  .navbar #close img {
     display: inherit;
   }
-  
-  .navbar #open .hiddenLinks {
-    display: inherit;
-    margin-left: 30px;
-  }
-  
-  .navbar #close .hiddenLinks {
-    display: none;
-  }
-  
-  .navbar #open a {
-    width: 70px;
-    margin: 5px;
-  }
-  @media only screen and (max-width: 900px) {
-    .navbar .rightSide a {
-      width: 70px;
-    }
-    .navbar .leftSide {
-      padding-left: 50px;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .navbar .rightSide a {
-      display: none;
-    }
-  
-    .navbar .rightSide {
-      justify-content: flex-end;
-      padding-right: 50px;
-    }
-  
-    .navbar .rightSide button {
-      display: inherit;
-    }
-  }
+}
   
   @media only screen and (min-width: 600px) {
     .navbar .rightSide button {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Contact.css'
+import '../styles/ContactForm.css'
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -40,7 +40,9 @@ function ContactForm() {
         required
         />
       </div>
+
       <h2>Email</h2>
+
       <div class="emailInput">
         <input class="custom-input"
           type="email"
@@ -52,7 +54,6 @@ function ContactForm() {
         />
       </div>
  
-      
       <h2>Message</h2>
       
       <div class="messageInput">
