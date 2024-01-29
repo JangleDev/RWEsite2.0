@@ -2,7 +2,7 @@ import React from 'react'
 import {InstagramOutlined} from '@ant-design/icons'
 import {LinkedinOutlined} from '@ant-design/icons'
 import Logo from '../assets/IMG_6705.PNG'
-import MAELogo from '../assets/MAE_Logo_2.png'
+import MAELogo from '../assets/MAE_Logo_5.png'
 import '../styles/footer.css'
 
 function Footer() {
@@ -22,7 +22,8 @@ function Footer() {
                 </a>
                 <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
                     <LinkedinOutlined/>
-                </a>      
+                </a>
+                <img src={MAELogo}/>      
             </div>
         </div>
         <div className="right">

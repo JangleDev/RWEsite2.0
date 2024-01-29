@@ -1,0 +1,11 @@
+.redirect .button{
+    border: 2px solid #121619;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10vw;
+    height: 3vw;
+    /* Additional styles */
+    background-color: #f7f7f7;
+    color: #121619; 
+}

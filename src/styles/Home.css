@@ -1,54 +1,84 @@
+.header{
+    flex-direction: row;
+    display:flex;
+} 
 .headerContainer {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height:400px;
+    width:50vw;
+    padding-top: 10vh;
+    background-size: auto;
+    background-image: url(../assets/Campus_Aerial_View_2.jpeg);
+    /**background-color: #1c3b7b;**/
+    
+    
+}
+.footerContainer {
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:35vh;
+    height:50vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: whitesmoke;
-    padding: 5vw;
+    background-color: #1c3b7b;   
+}
+.footerContainer img{
+    width: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     
 }
 .contentContainer {
     display:flex;
     flex-direction: row;
-    
+    padding-top: 10vh;
     align-items:left;
     justify-content: left;
-    height:45vh;
-    background-color: #1d2328;
-    padding: 5vh;
+    height:400px;
+    width: 50vw;
+    background-color: rgb(231,150,113);
+    
     
 }
 .contentContainer h1{
+    padding-left: 5vw;
     
-    font-weight: lighter;
-    padding-right: 4vw;
-    color: whitesmoke;
+    padding-right: 5vw;
+    font-size: 40px;
+    padding-top: 1vh;
+    color: #121619;
     
-    text-align: left;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
 }
 
 .headerContainer img{
-    width: 20vw;
-    margin-top: 6vh;
+    width: 300px;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
     
 }
 .headerContainer h1{
-    font-size: 30px;
-    margin-top: 20vh;
-    font-weight: lighter;
-    align-content: left;
-    align-self: left;
-    justify-content: left;
-    justify-self: left;
-    justify-content: left;
-    text-align: left;
     
+    font-weight: lighter;
+    padding-right: 4vw;
     color: whitesmoke;
+    padding-top: 12vh;
+    font-size: 50px;
+    
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
 }
+
 .headerContainer .left-side {
     flex: 50%;
     height: 100%;
@@ -103,21 +133,10 @@
       align-items: center;
     }
   
-    .headerContainer {
-        margin-left: 0px;
-        border-radius: 10px;
-        padding: 10px;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #121619;
-        color: white;
-    }
+    
   
     .headerContainer h1 {
-        font-size: 40px;
+        font-size: 30px;
         height: 30px;
         color: white;
     }

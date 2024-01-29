@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Cube from '../assets/RWELogoNoBG.png'
+import Logo from '../assets/IMG_6705.PNG'
 import {Link} from 'react-router-dom'
 import '../styles/NavBar.css'
 import {BarsOutlined} from '@ant-design/icons'
@@ -15,9 +15,7 @@ function Navbar() {
         
         <div className="leftSide" id={openLinks ? "open" : "close"}>
             
-            <h1>
-                <Link to="/">RWE</Link>
-            </h1>
+            <img src={Logo}/>
 
             <div className="hiddenLinks">
 
@@ -46,7 +44,7 @@ function Navbar() {
         </div>
       
     </div>
-    
+
   )
 }
 

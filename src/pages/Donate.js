@@ -17,8 +17,7 @@ function Donate() {
             <div class="DonateContainer">
                 <h2>Donate through our GoFundMe page</h2>
                 <div class="buttonContainer">
-                    <button class="button" type="submit">Donate</button>
-                    <RedirectButton url="https://gofund.me/3c4556e1" text="Go to our fundme"/>
+                    <RedirectButton url="https://gofund.me/3c4556e1" text="Donate"/>
                 </div>
                 <h2>Donate to the MAE fund</h2>
                 <div class="buttonContainer">

@@ -8,9 +8,17 @@ function Contact() {
     return (
         <div class="ContactPage">
             <div class="ContactContainer">
-                <h1>Contact Us</h1>
+                <h1>Contact RWE</h1>
             </div>     
-            <ContactForm/>
+            <iframe 
+            style={{ width:'100vw', height:'76vh', border: 'none'}}
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfpEVt5HDjDm1LxHZTSd4Je9rUfouMqUMywMtPe29yLlX3BOg/viewform?embedded=true" 
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+            >
+  Loading…
+            </iframe>
         </div>
     )
   }

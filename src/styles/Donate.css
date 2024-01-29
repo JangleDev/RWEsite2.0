@@ -4,12 +4,12 @@
     align-items:center;
     justify-content: center;
     height:35vh;
-    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #1d2328;
+    background-image: url(../assets/IMG_1542.JPG);
+    background-size: 100%;
+    background-color: #1c3b7b;
     padding-top: 10vh;
     
 }
-
 .DonateContainer{
     display:flex;
     flex-direction: column;

@@ -15,9 +15,15 @@ function ContactForm() {
   };
 
   const handleSubmit = (e) => {
+    const formEle = document.querySelector("form")
+   
     e.preventDefault();
     // Handle form submission here (e.g., send data to backend)
-    console.log(formData);
+  
+    fetch("https://script.google.com/macros/s/AKfycbyvsB8C1sfEI-YLMy6DUs4TizPmKjVpaNcqxr8F-LhEGIM9iRSqtddzCrnrbdGp1rBcsA/exec",{
+      method: "POST",
+      body: formData
+    })
     // Reset form fields after submission
     setFormData({
       name: '',
@@ -25,7 +31,14 @@ function ContactForm() {
       subject: '',
       message: ''
     });
+
+    
   };
+
+  function submit(e){
+    const formEle = document.querySelector("form")
+    e.preventDefault()
+  }
 
   return (
     <form onSubmit={handleSubmit}>

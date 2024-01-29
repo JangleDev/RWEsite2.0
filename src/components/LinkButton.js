@@ -6,9 +6,12 @@ const RedirectButton = ({ url, text }) => {
   };
 
   return (
-    <button onClick={handleClick}>
-      {text}
-    </button>
+    <div class="redirect">
+        <button class="button"onClick={handleClick}>
+            {text}
+        </button>
+    </div>
+    
   );
 };
 
