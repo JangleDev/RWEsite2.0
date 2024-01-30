@@ -7,7 +7,7 @@ function Team() {
   return (
     <div className = "Team">
       <div className="TeamHeader">
-        <h1>Meet the team working to provide students with an opportunity to gain hands-on engineering experience 
+        <h1>Meet the team working to provide students with an opportunity to gain engineering experience 
           within the collaborative space being fostered at RWE.
         </h1>
       </div>

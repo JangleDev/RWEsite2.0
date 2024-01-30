@@ -1,13 +1,14 @@
 /* MENU ITEM STYLING */
 .TeamMember{
     
-    padding-bottom: 10%;
+    padding-bottom: 12%;
+    padding-top: 12%;
     position: relative;
     display: inline-block;
 }
 
 .TeamMember img{
-    width: 27.5vw;
+    width: 28vw;
     overflow: hidden;
     height: auto;
     display: grid;
@@ -24,11 +25,11 @@
 }
 .TeamMember .MemberDescriptor{
     position: absolute;
-    top: 79%; /* Adjust top, left, width, height as needed */
+    top: 90%; /* Adjust top, left, width, height as needed */
     left: 0%;
-    width: 27.5vw;
-    height: 12%;
-    background-color: rgba(11, 14, 16, 0.90); 
+    width: 28vw;
+    height: 4.2vw;
+    background-color: #11244b; 
     color: whitesmoke;
     line-height: 1px;
     border-top: none;  
@@ -36,14 +37,14 @@
 }
 
 .TeamMember .MemberDescriptor h3{
-    font-size: 30px;
-    padding-left: 2%;
+    font-size: 1.5vw;
+    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
 .TeamMember .MemberDescriptor p{
-    font-size: 20px;
-    padding-left: 2%;
+    font-size: 1vw;
+    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
       

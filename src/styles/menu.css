@@ -1,6 +1,8 @@
 .Team{
-  background-color: #121619;
+  background-color: 	#11244b;
+
   padding-top: 10vh;
+  padding-bottom: 10vh;
   
 }
 .Team h1{
@@ -25,8 +27,9 @@
   justify-content: center;
   height:25vh;
   /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-  background-color: #1c3b7b;
+  background-color: #0d1b38;
   padding-bottom: 50px;
+  /**border-bottom: 3px solid whitesmoke;**/
   
 
   
@@ -34,8 +37,7 @@
   
 .TeamList {
   border: 3px;
-  padding-top: 10vh;
- 
+  padding-top: 5vh;
   margin-left: 5vw;
   width: 90vw;
   height: auto;

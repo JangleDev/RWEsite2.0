@@ -6,8 +6,10 @@
     height:35vh;
     background-image: url(../assets/IMG_1542.JPG);
     background-size: 100%;
+    background-blend-mode:exclusion;
     background-color: #1c3b7b;
     padding-top: 10vh;
+    border-bottom: 3px solid whitesmoke;
     
 }
 .DonateContainer{
@@ -30,7 +32,13 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-bottom: 3vh;
     text-align: center;
+    font-size: 100px;
     color:whitesmoke;
+}
+
+.DonateContainer{
+    background-color: whitesmoke;
+    
 }
 
 .DonateContainer h2{

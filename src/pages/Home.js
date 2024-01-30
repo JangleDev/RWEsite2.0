@@ -11,6 +11,10 @@ import MAELogo from '../assets/MAE_Logo_5.png'
 function Home() {
   return (
     <div className="home">
+        <div className="footerContainer">
+          
+        </div>
+
         <div className="header">
           <div className="headerContainer">
               <img src={MAELogo}/>
@@ -21,20 +25,17 @@ function Home() {
               their academic knowledge to real-world problems and new technologies. 
             </h1>
           </div>
-        </div>
-        
-
-        
-
-        
-        <div className="footerContainer">
-            
-            <div classname="left-side">
+          <div className="leftheaderContainer">
               <img src={Logo}/>
-              
-            </div>
+          </div>
           
         </div>
+        
+
+        
+
+        
+  
 
     </div>
         

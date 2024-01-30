@@ -21,7 +21,7 @@ function Donate() {
                 </div>
                 <h2>Donate to the MAE fund</h2>
                 <div class="buttonContainer">
-                    <button class="button" type="submit">Donate</button>
+                    <RedirectButton url="https://give.mae.ufl.edu/" text="Donate"/>
                 </div>
             </div> 
         </div>

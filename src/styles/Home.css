@@ -1,6 +1,25 @@
 .header{
     flex-direction: row;
     display:flex;
+    
+    border-bottom: 3px solid #e79671;
+    border-top: 3px solid #e79671;
+    
+}
+.bottomContainer {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height:400px;
+    width:100vw;
+    padding-left: 5vw;
+    padding-top: 0vh;
+
+    /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+    background-color: #0d1b38;
+    /**background-color: #1c3b7b;**/
+
 } 
 .headerContainer {
     display:flex;
@@ -8,12 +27,35 @@
     align-items:center;
     justify-content: center;
     height:400px;
-    width:50vw;
-    padding-top: 10vh;
+    width:20vw;
+    padding-left: 5vw;
+    padding-top: 0vh;
     background-size: auto;
-    background-image: url(../assets/Campus_Aerial_View_2.jpeg);
+    /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+    background-color: #0d1b38;
     /**background-color: #1c3b7b;**/
     
+    
+}
+.leftheaderContainer {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height:400px;
+    width:20vw;
+    padding-right: 5vw;
+    padding-top: 0vh;
+    background-size: auto;
+    /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+    background-color: #0d1b38;
+    /**background-color: #1c3b7b;**/
+}
+.leftheaderContainer img{
+    width: 400px;
+    padding-top: 0vh;
+    padding-left: 0vw;
+    padding-right: 5vw;
     
 }
 .footerContainer {
@@ -22,35 +64,38 @@
     align-items:center;
     justify-content: center;
     height:50vh;
-    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #1c3b7b;   
+    padding-top: 10vh;
+    background-image: url(../assets/IMG_1542.JPG);
+    background-size: 100%;
+    background-size: cover;
+
+    background-color: #091225;   
 }
 .footerContainer img{
-    width: 20vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    width: 18vw;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
     
 }
 .contentContainer {
     display:flex;
     flex-direction: row;
-    padding-top: 10vh;
+    padding-top: 0vh;
     align-items:left;
     justify-content: left;
     height:400px;
     width: 50vw;
-    background-color: rgb(231,150,113);
+    background-color: #0d1b38;
     
     
 }
 .contentContainer h1{
     padding-left: 5vw;
-    
     padding-right: 5vw;
     font-size: 2vw;
-    padding-top: 3vh;
-    color: #121619;
-    
+    font-weight: lighter;
+    padding-top: 1.5vh; 
+    color: whitesmoke;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -59,10 +104,9 @@
 
 .headerContainer img{
     width: 300px;
-    padding-top: 5vh;
+    padding-top: 0vh;
     padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 5vh;
+    padding-right: 0vw;
     
 }
 .headerContainer h1{
