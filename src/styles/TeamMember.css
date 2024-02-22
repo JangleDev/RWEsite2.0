@@ -48,3 +48,43 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
       
+@media only screen and (max-width: 1300px) {
+    
+  }
+    
+  @media only screen and (max-width: 800px) {
+    .TeamList {
+      grid-template-columns: 1fr 1fr;
+    }
+    .TeamMember img{
+      width: 43vw;
+      overflow: hidden;
+      height: auto;
+      display: grid;
+      place-items: center;
+      font-size: small;
+    }
+    .TeamMember .MemberDescriptor{
+        position: absolute;
+        top: 90%; /* Adjust top, left, width, height as needed */
+        left: 0%;
+        width: 43vw;
+        height: 4.2vw;
+        background-color: #11244b; 
+        color: whitesmoke;
+        line-height: 1px;
+        border-top: none;  
+        padding-bottom: 0.5%;
+    }
+    .TeamMember .MemberDescriptor h3{
+        font-size: 2.3vw;
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    }
+    
+    .TeamMember .MemberDescriptor p{
+        font-size: 1.5vw;
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  }

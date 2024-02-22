@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from '../assets/IMG_6705.PNG'
+import Logo from '../assets/IMG_6705-1.PNG'
 import {Link} from 'react-router-dom'
 import '../styles/NavBar.css'
 import {BarsOutlined} from '@ant-design/icons'

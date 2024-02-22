@@ -68,7 +68,7 @@ export const TeamList = [
             link: 'https://www.linkedin.com/in/braxton-eisel/' 
         },
         {
-            name: "Aaron Schumer",
+            name: "Aaron Shumer",
             role: "Software Lead",
             photo: Aaron,
             link: 'https://www.linkedin.com/in/aaron-shumer/'  

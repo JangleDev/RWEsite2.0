@@ -5,6 +5,7 @@ import BannerImage from '../assets/RWEPhoto1.png'
 import Logo from '../assets/RWELogoNoBG.png'
 import '../styles/Home.css'
 import MAELogo from '../assets/MAE_Logo_5.png'
+import LinktreeLogo from '../assets/Linktree_logo.png'
 
 
 
@@ -30,6 +31,7 @@ function Home() {
           </div>
           
         </div>
+       
         
 
         

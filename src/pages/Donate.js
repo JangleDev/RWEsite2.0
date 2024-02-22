@@ -1,6 +1,10 @@
 import React from 'react'
 import RedirectButton from '../components/LinkButton'
 import '../styles/Donate.css'
+import Logo from '../assets/RWELogoNoBG.png'
+import LongLogo from '../assets/IMG_6705-1.PNG'
+import GFMLogo from '../assets/gofundmelogo.png'
+import MAELogo from '../assets/MAE_Logo_5.png'
 
 
 function Donate() {
@@ -13,17 +17,29 @@ function Donate() {
             <div class="HeaderContainer">
                 <h1>Donate</h1>
             </div>     
+            
 
-            <div class="DonateContainer">
-                <h2>Donate through our GoFundMe page</h2>
+            <div class = "GFMContainer">    
+                <h1>Donate through our GoFundMe</h1>
+                
                 <div class="buttonContainer">
                     <RedirectButton url="https://gofund.me/3c4556e1" text="Donate"/>
+                    <img src={GFMLogo}/>
                 </div>
-                <h2>Donate to the MAE fund</h2>
+
+            </div>
+
+            <div class = "MAEFundContainer">
+
+                <h1>Donate to the MAE Excellence fund</h1>
+                
                 <div class="buttonContainer">
-                    <RedirectButton url="https://give.mae.ufl.edu/" text="Donate"/>
+                    <RedirectButton url="https://www.uff.ufl.edu/give-now/?fund_id=024649&appeal=GZAKRA1" text="Donate"/>
+                    <img src={MAELogo}/>
                 </div>
-            </div> 
+
+            </div>
+                
         </div>
           
     )

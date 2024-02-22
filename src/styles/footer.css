@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    border-top: 1.5px ridge #e79671;
+
 
 }
 
@@ -22,29 +22,40 @@
     flex-direction: row;
 
 }
-.footer .middle .RWELogo img{
-    width: 175px;
+.footer .left .socialMedia{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 
+}
+.footer .middle .RWELogo img{
+    width: 10vw;
     padding-left: 20px;
 }
 .footer .middle .MAELogo img{
-    width: 75px;
+    width: 4vw;
 }
 
   
 .socialMedia svg {
     color: whitesmoke;
     margin: 20px;
-    font-size: 70px;
+    font-size: 3.5vw;
     cursor: pointer;
 
+}
+.socialMedia img {
+    width:10vw;
+    padding-left: 20px;
+    
 }
 
 
   
 .footer p {
     color: whitesmoke;
-    font-size: larger;
+    font-size: 1vw;
     font-weight: lighter;
 }
 

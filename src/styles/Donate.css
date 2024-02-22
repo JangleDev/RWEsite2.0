@@ -1,70 +1,177 @@
-.HeaderContainer{
+.DonatePage .HeaderContainer{
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:35vh;
-    background-image: url(../assets/IMG_1542.JPG);
+    padding-top: 10vh;
+    height:30vh;
+    background-image: url(../assets/Campus_Aerial_View_2.jpeg);
     background-size: 100%;
-    background-blend-mode:exclusion;
-    background-color: #1c3b7b;
-    padding-top: 10vh;
-    border-bottom: 3px solid whitesmoke;
-    
-}
-.DonateContainer{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    height:35vh;
-    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+    background-blend-mode:multiply;
     background-color: whitesmoke;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    
+    
     
 }
 .DonatePage{
-    background-color:whitesmoke; 
+    background-color: #11244b;
 }
+.GFMContainer h1{
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+.GFMContainer{
+    padding-top: 10vh;
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:22.55vh;
+    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+    background-color: #11244b;
+    border-bottom: 3px solid whitesmoke;
+    margin-left:20vw;
+    margin-right: 20vw;
+    
+}
+.MAEFundContainer h1{
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+.MAEFundContainer{
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:40vh;
+    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+    background-color: #11244b;
+    
+}
+
 
 .HeaderContainer h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-bottom: 3vh;
+ 
     text-align: center;
     font-size: 100px;
     color:whitesmoke;
 }
 
-.DonateContainer{
-    background-color: whitesmoke;
-    
+.HeaderContainer img{
+    justify-content: center;
+    width: 25vw;
 }
 
-.DonateContainer h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left:0vw;
-    line-height: 1px;
+.MAEFundContainer .buttonContainer{
     padding-top: 3vh;
-    color: #1d2328;
-}
-
-.DonateContainer .buttonContainer{
-    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
     padding-left: 0vw;
     padding-bottom: 3vh;
 }
+.MAEFundContainer .buttonContainer img{
+    width:8vw;
+    padding-left: 1vw;
+    padding-top: 5vh;
+    
+}
+.GFMContainer .buttonContainer{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0vw;
+    padding-bottom: 3vh;
+}
+.GFMContainer .buttonContainer img{
+    width:10vw;
+    padding-top: 3vh;
+}
 
-.DonateContainer .button{
-    border: 2px solid #121619;
-    border-radius: 5px;
-    font-size: 16px;
+.GFMContainer .button{
+    border: 1px solid #e79671;
+    border-radius: 50px;
+    font-size: 1.5vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 10vw;
     height: 3vw;
     /* Additional styles */
-    background-color: #f7f7f7;
-    color: #121619; 
+    background-color: #e07645;
+    
+    color: whitesmoke; 
+}
+.MAEFundContainer .button{
+    border: 1px solid #e79671;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10vw;
+    height: 3vw;
+    /* Additional styles */
+    background-color: #e07645;
+    color: whitesmoke; 
 }
 
 
+@media only screen and (max-width: 600px) {
+    .GFMContainer .button{
+        border: 2px solid #e79671;
+        border-radius: 100px;
+        font-size: 3vw;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 20vw;
+        height: 6vw;
+        /* Additional styles */
+        background-color: #e07645;
+        
+        color: whitesmoke; 
+    }
+    .MAEFundContainer .button{
+        border: 2px solid #e79671;
+        border-radius: 100px;
+        font-size: 3vw;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 20vw;
+        height: 6vw;
+        /* Additional styles */
+        background-color: #e07645;
+        color: whitesmoke; 
+    }
+    .MAEFundContainer h1{
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+    .GFMContainer h1{
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+    .GFMContainer .buttonContainer img{
+        width:20vw;
+        padding-top: 3vh;
+    }
+    .MAEFundContainer .buttonContainer img{
+        width:16vw;
+        padding-left: 2vw;
+        padding-top: 4vh;
+        
+    }
+   
+  }

@@ -1,8 +1,6 @@
 .header{
     flex-direction: row;
     display:flex;
-    
-    border-bottom: 3px solid #e79671;
     border-top: 3px solid #e79671;
     
 }
@@ -12,10 +10,10 @@
     align-items:center;
     justify-content: center;
     height:400px;
-    width:100vw;
+    width:20vw;
     padding-left: 5vw;
     padding-top: 0vh;
-
+    background-size: auto;
     /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
     background-color: #0d1b38;
     /**background-color: #1c3b7b;**/
@@ -26,7 +24,7 @@
     flex-direction: row;
     align-items:center;
     justify-content: center;
-    height:400px;
+    height:40vh;
     width:20vw;
     padding-left: 5vw;
     padding-top: 0vh;
@@ -42,7 +40,7 @@
     flex-direction: row;
     align-items:center;
     justify-content: center;
-    height:400px;
+    height:40vh;
     width:20vw;
     padding-right: 5vw;
     padding-top: 0vh;
@@ -52,7 +50,7 @@
     /**background-color: #1c3b7b;**/
 }
 .leftheaderContainer img{
-    width: 400px;
+    width: 20vw;
     padding-top: 0vh;
     padding-left: 0vw;
     padding-right: 5vw;
@@ -64,6 +62,7 @@
     align-items:center;
     justify-content: center;
     height:50vh;
+    width: 100vw;
     padding-top: 10vh;
     background-image: url(../assets/IMG_1542.JPG);
     background-size: 100%;
@@ -83,7 +82,7 @@
     padding-top: 0vh;
     align-items:left;
     justify-content: left;
-    height:400px;
+    height:40vh;
     width: 50vw;
     background-color: #0d1b38;
     
@@ -94,7 +93,8 @@
     padding-right: 5vw;
     font-size: 2vw;
     font-weight: lighter;
-    padding-top: 1.5vh; 
+    padding-top: 1.5vh;
+    align-self: center; 
     color: whitesmoke;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -103,7 +103,7 @@
 }
 
 .headerContainer img{
-    width: 300px;
+    width: 15vw;
     padding-top: 0vh;
     padding-left: 5vw;
     padding-right: 0vw;
@@ -176,9 +176,98 @@
       justify-content: center;
       align-items: center;
     }
-  
     
-  
+    .header{
+        flex-direction: column;
+        display:flex;
+        border-top: 3px solid #e79671;
+        
+    }
+    .footerContainer {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        height:40vh;
+        width: 100vw;
+        padding-top: 10vh;
+        background-image: url(../assets/IMG_1542.JPG);
+        background-size:contain;
+        
+    
+        background-color: #091225;   
+    }
+    .leftheaderContainer {
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        height:40vh;
+        width:100vw;
+        padding-right: 0vw;
+        padding-top: 0vh;
+        background-size: auto;
+        /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+        background-color: #0d1b38;
+        /**background-color: #1c3b7b;**/
+    }
+
+    .headerContainer {
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        height:40vh;
+        width:100vw;
+        padding-left: 0vw;
+        padding-top: 0vh;
+        background-size: auto;
+        /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+        background-color: #0d1b38;
+        /**background-color: #1c3b7b;**/
+        
+        
+    }
+
+    .leftheaderContainer img{
+        width: 30vw;
+        padding-top: 0vh;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        
+    }
+    .headerContainer img{
+        width: 30vw;
+        padding-top: 0vh;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        
+    }
+    .contentContainer {
+        display:flex;
+        flex-direction: row;
+        padding-top: 0vh;
+        align-items:left;
+        justify-content: left;
+        height:10vh;
+        width: 100vw;
+        background-color: #0d1b38;
+        
+        
+    }
+    .contentContainer h1{
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: 3vw;
+        font-weight: lighter;
+        padding-top: 1.5vh;
+        align-self: center; 
+        color: whitesmoke;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        
+    }
     .headerContainer h1 {
         font-size: 30px;
         height: 30px;

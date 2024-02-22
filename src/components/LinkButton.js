@@ -2,14 +2,17 @@ import React from 'react';
 
 const RedirectButton = ({ url, text }) => {
   const handleClick = () => {
-    window.location.href = url;
+    window.open = (url,"_blank");
   };
 
   return (
     <div class="redirect">
-        <button class="button"onClick={handleClick}>
+        <a href={url} target="_blank" rel="noopener noreferrer" onClick={handleClick}>
+          <button className="button" onClick={handleClick}>
             {text}
-        </button>
+          </button>
+            
+        </a>
     </div>
     
   );

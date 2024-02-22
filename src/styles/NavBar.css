@@ -3,7 +3,7 @@
   height: 10vh;
   /** background-color: whitesmoke; **/
   background-color :#091225;
-  border-bottom: 1.5px ridge #e79671;
+  
   display: flex;
   position: fixed;
 
@@ -24,9 +24,10 @@
 }
   
 .navbar .leftSide img {
-  width: 300px;
-  height: 300px;
-  padding-top: 8vh;
+  width: 175px;
+  height: 100px;
+  padding-left: 2vw;;
+  padding-top: 0vh;
 }
   
 .navbar .rightSide {
@@ -41,6 +42,7 @@
   color: whitesmoke;
   text-decoration: none;
   margin: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight:540;
   font-size: larger;
 }
@@ -69,7 +71,7 @@
   
 .navbar #open .hiddenLinks {
   display: inherit;
-  margin-left: 30px;
+  margin-left: 3vw;
 }
   
 .navbar #close .hiddenLinks {
@@ -77,19 +79,13 @@
 }
   
 .navbar #open a {
-  width: 70px;
-  margin: 5px;
+  width:auto;
+  font-size: 2.5vw;
+  margin: 10px;
 }
-@media only screen and (max-width: 900px) {
-  .navbar .rightSide a {
-    width: 70px;
-  }
-  .navbar .leftSide {
-    padding-left: 50px;
-  }
-}
+
   
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .navbar .rightSide a {
     display: none;
   }
@@ -104,7 +100,7 @@
   }
 }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 1000px) {
     .navbar .rightSide button {
       display: none;
     }

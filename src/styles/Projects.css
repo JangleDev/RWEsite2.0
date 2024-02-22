@@ -1,121 +1,195 @@
 .projects{
-    background-color: #091225;
+    background-color: #11244b;
+   
 }
-.projectsHeaderContainer {
+.projHeader {
     display:flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items:left;
     justify-content: center;
+    padding-top: 10vh;
     height:25vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #091225;
-    padding-top: 10vh;
+    background-color: #0d1b38;
+    padding-bottom: 50px;
+    /**border-bottom: 3px solid whitesmoke;**/
+    
+  
+    
+  }
+  .projHeader2 {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+    height:10vh;
+    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+    background-color: #e79671;
+    /**border-bottom: 3px solid whitesmoke;**/
+    
+  
+    
+  }
+  .projHeader2 h1{
+    padding-top: 5vh;
+    text-align: center;
+
+    font-weight: 50;
+    
+    color:#11244b;
+    font-size: 40px;
+    
+    
+    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
-}
-.projectsHeaderContainer h2{
-    /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    padding-top: 12.5vh;
-    font-weight: lighter;
-    font-size: 40px;
-    text-align: center;
+  
+  }
+  .projHeader h1{
+  
+    padding-top: 10vh;
+    text-align: left;
     padding-left: 7.5vw;
-    color: whitesmoke;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
-.projectsFooterContainer {
+    font-weight: 50;
+    padding-bottom: 5vh;
+    color:whitesmoke;
+    font-size: 40px;
+    
+    height: 10vh;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  
+  }
+
+
+
+.projectsImplementContainer {
+    
     display:flex;
     flex-direction: row;
     align-items:left;
     justify-content: left;
-    height:40vh;
+    height:10vh;
     margin-left: 7.5vw;
+    margin-top: 10vh;
     margin-right: 7.5vw;
     width: 85vw;
-    border-top: 1.5px solid #e79671;
-    border-bottom: 3px solid #e79671;
+    border-top: 3px solid #e79671;
+    
     border-left: 3px solid #e79671;
     
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #091225;
+    background-color: #11244b;
+    
+    margin-top: 10vh;
     margin-bottom: 10vh;
     
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
-.projectsFooterContainer img{
-    width: 40vh;
-    padding: 0vh;
+.projectsImplementContainer img{
+    width: 20vw;
+    padding-top: 0.6125vw;
+    padding-bottom: 0.6125vw;
+    padding-left: 0.6125vw;
+    padding-right: 0.30625vw;
     
     
 }
-.projectsContentContainer {
-    display:flex;
-    flex-direction: row;
-    align-items:left;
-    justify-content: left;
-    height:50vh;
-    width: 85vw;
-    background-color: #091225;
-    margin-left: 7.5vw;
-    margin-right: 7.5vw;
-    border-top: 3px solid #e79671;
-    border-bottom: 1.5px solid #e79671;
-    border-left: 3px solid #e79671;
-    
-    
-}
-.projectsContentContainer .pccLeft {
-    display:flex;
-    flex-direction: row;
-    align-items:left;
-    justify-content: left;
-    height:40vh;
-    width: 37.5;
-    background-color: #1c3b7b;
-}
-.projectsContentContainer .pccRight {
-    align-items:left;
-    text-align: left;
-    justify-content: left;
+.projectsImplementContainer h3{
     padding-left: 2.5vw;
-    height:40vh;
-    width: 40vw;
-   
-}
-.projectsContentContainer .pccLeft img{
-    width: 30vw;
-    height: 50vh;
-}
-.projectsContentContainer .pccRight h3{
+    padding-right: 2.5vw;
     font-weight: lighter;
     font-size: 30px;
     color: whitesmoke;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
     text-align: left;
     
+    
 }
 
+   
+    
+    
 
+.projectsContentContainer {
+    
+    display:flex;
+    flex-direction: row;
+    align-items:left;
+    justify-content: left;
+    height:40vw;
+    width: 85vw;
+    background-color: #11244b;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+    
+    
+    
+}
+.projectsContentContainer .pccLeft {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:40vw;
+   
+    background-color: #11244b;
+}
+.projectsContentContainer .pccLeft .pccLeftHead {
+    padding-bottom: 2.5vh;
+    height: 2vw;
+    
+    
+}
+.projectsContentContainer .pccLeft .pccLeftHead h1 {
+    margin:0;
+    padding-left: 2.5vw;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e07645;
+    line-height: 1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    
+}
+.projectsContentContainer .pccRight {
+    align-items:center;
+    
+    justify-content: center;
+    background-color: #11244b;
+    height:40vw;
+    width: 40vw;
+   
+}
 
+.projectsContentContainer .pccRight img{
+    width: 35vw;
+    height: 30vw;
+    margin-top: 5vw;
+    border: 3px solid #e07645;
+   
+}
+.projectsContentContainer .pccLeft h3{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin:0;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #e79671;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    text-align: center;
+    
+    
+}
 
 .projectsHeaderContainer img{
     width: 20vw;
     margin-top: 6vh;
-    
 }
-.projectsHeaderContainer h1{
-    font-size: 80px;
-    padding-top: 10vh;
-    font-weight: lighter;
-    align-content: left;
-    align-self: left;
-    justify-content: left;
-    justify-self: left;
-    justify-content: left;
-    text-align: left;
-    color: whitesmoke;
-}
+
 /***
 .projectsHeaderContainer .left-side {
     flex: 50%;
@@ -148,7 +222,271 @@
 
   
 
-  
+@media only screen and (max-width: 1550px) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 29.5px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+}
 
+@media only screen and (max-width: 1475px) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 26px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 1375px) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 24px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1275px) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 22px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+}
   
+@media only screen and (max-width: 1175px) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 20px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+ 
+}
+
+@media only screen and (max-width: 1075px) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 18px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+ 
+}
+@media only screen and (max-width: 1000px) {
+    .projectsImplementContainer {
+    
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        height:10vh;
+        margin-left: 7.5vw;
+        margin-top: 10vh;
+        margin-right: 7.5vw;
+        width: 85vw;
+        border-top: 3px solid #e79671;
+        
+        border-left: 3px solid #e79671;
+        
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        background-color: #11244b;
+        
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+    .projectsImplementContainer h3{
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 30px;
+        color: whitesmoke;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+        
+        
+    }
+    .projHeader h1{
+  
+        padding-top: 10vh;
+        text-align: left;
+        padding-left: 10vw;
+    
+        font-weight: 50;
+        padding-bottom: 5vh;
+        color:whitesmoke;
+        font-size: 40px;
+        
+        height: 10vh;
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+      
+      }
+    .projHeader {
+        display:flex;
+        flex-direction: column;
+        align-items:left;
+        justify-content: center;
+        padding-top: 10vh;
+        height:15vh;
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        background-color: #0d1b38;
+        padding-bottom: 50px;
+        /**border-bottom: 3px solid whitesmoke;**/
+        
+      
+        
+      }
+    .projectsImplementContainer h3{
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 20px;
+        color: whitesmoke;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: left;
+        
+        
+    }
+    .projectsHeaderContainer {
+        display:flex;
+        flex-direction: column;
+        align-items:left;
+        justify-content: center;
+    
+        padding-left: 10vw;
+        padding-right: 7.5vw;
+        width: 80vw;
+        border-top: 3px solid #e79671;
+          
+        height:10vh;
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        background-color: #11244b;
+        
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+    .projectsHeaderContainer h1{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+       
+        
+        font-size: 35px;
+        font-weight: 50;
+     
+        color: whitesmoke;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .projectsContentContainer {
+    
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        height:auto;
+        width: 85vw;
+        background-color: #11244b;
+        margin-left: 7.5vw;
+        margin-right: 7.5vw;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        
+        
+    }
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 16px;
+        color: #e79671;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: center;
+    }
+    
+    .projectsContentContainer .pccRight img{
+        width: 80vw;
+        height: 65vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-top: 2vw;
+        border: 3px solid #e07645;
+    }
+    .projectsContentContainer .pccLeft {
+        display:flex;
+        
+        align-items:left;
+        justify-content: left;
+        height:25vh;
+        width: 85vw;
+        background-color: #11244b;
+    }
+    .projectsContentContainer .pccRight {
+        align-items:left;
+        text-align: left;
+        justify-content: left;
+        
+        height:77.5vw;
+        width: 85vw;
+       
+    }
+    .projectsContentContainer .pccLeft .pccLeftHead h1 {
+        margin:0;
+        padding-left: 2.5vw;
+        font-size: 20px;
+        color: #e07645;
+        line-height: 1;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        
+    }
+ 
+}
+@media only screen and (max-width:600) and (max-height:900) {
+    .projectsContentContainer .pccLeft h3{
+        /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        font-weight: lighter;
+        font-size: 4px;
+        color: whitesmoke;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        text-align: left;
+    }
+    
+ 
+}
+
+
+
 

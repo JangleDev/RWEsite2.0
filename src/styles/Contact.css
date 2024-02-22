@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:14vh;
+    height:10vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #0d1b38;
+    background-color: #11244b;
     padding-top: 10vh;
     
  }
@@ -15,8 +15,8 @@
 .ContactContainer h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
-    padding-left: 0vw;
     text-align: center;
+    align-items: center;
     color:whitesmoke;
   
 }
