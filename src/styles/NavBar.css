@@ -108,4 +108,14 @@
     .hiddenLinks {
       display: none;
     }
+    .navbar #open .hiddenLinks {
+      display: none;
+    }
+    .navbar .rightSide{
+      display: none;
+    }
+    .navbar .leftside{
+      display: inherit;
+    }
+
   }
