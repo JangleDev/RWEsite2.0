@@ -13,7 +13,7 @@ import Slider5 from '../assets/Slider/slider5.jpeg'
 
 function Slideshow() {
   return (
-    <Carousel showIndicators={false} centerSlidePercentage={100}showThumbs={false} showStatus={false} autoPlay infiniteLoop centerMode className='main-slide'>
+    <Carousel showIndicators={false} centerSlidePercentage={100} showThumbs={false} showStatus={false} autoPlay infiniteLoop centerMode className='main-slide'>
                 <div>
                     <img src={Slider3} />
                 </div>
