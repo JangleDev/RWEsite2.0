@@ -1,8 +1,7 @@
 .header{
-    flex-direction: row;
+    flex-direction: column;
     display:flex;
-    border-top: 3px solid #e79671;
-    
+
 }
 .bottomContainer {
     display:flex;
@@ -21,16 +20,48 @@
 } 
 .headerContainer {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:40vh;
-    width:20vw;
-    padding-left: 5vw;
+    height:60vh;
+    width:100vw;
+    
     padding-top: 0vh;
     background-size: auto;
     /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
-    background-color: #0d1b38;
+    background-color: whitesmoke;
+    /**background-color: #1c3b7b;**/
+    
+    
+}
+.teamsContainer {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:120vh;
+    width:100vw;
+    
+    padding-top: 0vh;
+    background-size: auto;
+    /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+    background-color: whitesmoke;
+    /**background-color: #1c3b7b;**/
+    
+    
+}
+.denContainer {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:20vh;
+    width:100vw;
+    
+    padding-top: 0vh;
+    background-size: auto;
+    /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+    background-color: whitesmoke;
     /**background-color: #1c3b7b;**/
     
     
@@ -40,38 +71,47 @@
     flex-direction: row;
     align-items:center;
     justify-content: center;
-    height:40vh;
-    width:20vw;
-    padding-right: 5vw;
+    height:70vh;
+    width:50vw;
+    padding-right: 0vw;
     padding-top: 0vh;
     background-size: auto;
     /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
-    background-color: #0d1b38;
+    background-color: whitesmoke;
     /**background-color: #1c3b7b;**/
 }
 .leftheaderContainer img{
-    width: 20vw;
+    width: 45vw;
     padding-top: 0vh;
     padding-left: 0vw;
-    padding-right: 5vw;
+    padding-right: 0vw;
     
 }
 .footerContainer {
     display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    height:50vh;
+    position: relative;
+    flex-direction: row;
+    
+    height:90vh;
     width: 100vw;
     padding-top: 10vh;
-    background-image: url(../assets/IMG_1542.JPG);
-    background-size: 100%;
-    background-size: cover;
-
-    background-color: #091225;   
+   
+    background-color: black;   
 }
 .footerContainer img{
-    width: 18vw;
+    width: 25vw;
+    height: 45vw;
+    filter: contrast(1.08);
+    padding-left: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 0vh;
+    
+}
+.footerContainer .slider img{
+    width: 60vw;
+    height: 25vw;
+    filter: contrast(1.08);
+    padding-left: 0vw;
     padding-top: 0vh;
     padding-bottom: 0vh;
     
@@ -79,12 +119,15 @@
 .contentContainer {
     display:flex;
     flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height:70vh;
+    width:100vw;
     padding-top: 0vh;
-    align-items:left;
-    justify-content: left;
-    height:40vh;
-    width: 50vw;
-    background-color: #0d1b38;
+    background-size: auto;
+    /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
+    background-color: whitesmoke;
+    /**background-color: #1c3b7b;**/
     
     
 }
@@ -97,13 +140,21 @@
     align-self: center; 
     color: whitesmoke;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     
+    
+}
+.contentContainer img{
+    width: 75vw;
+    height: 50vh;
+    padding-top: 0vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
     
 }
 
 .headerContainer img{
-    width: 15vw;
+    width: 40vw;
     padding-top: 0vh;
     padding-left: 5vw;
     padding-right: 0vw;
@@ -111,13 +162,48 @@
 }
 .headerContainer h1{
     
-    font-weight: lighter;
-    padding-right: 4vw;
-    color: whitesmoke;
-    padding-top: 12vh;
-    font-size: 50px;
     
-    text-align: left;
+    padding-left: 17.5vw;
+    padding-right: 17.5vw;
+    color: BLACK;
+    
+    font-size: 60px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.teamsContainer h1{
+    
+    
+    padding-left: 17.5vw;
+    padding-right: 17.5vw;
+    color: BLACK;
+    
+    font-size: 60px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.headerContainer h3{
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    color: BLACK;
+    font-weight: 200;
+    font-size: 35px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.teamsContainer h3{
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    color: BLACK;
+    font-weight: 200;
+    font-size: 35px;
+    text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
@@ -180,7 +266,6 @@
     .header{
         flex-direction: column;
         display:flex;
-        border-top: 3px solid #e79671;
         
     }
     .footerContainer {
@@ -188,14 +273,22 @@
         flex-direction: column;
         align-items:center;
         justify-content: center;
-        height:40vh;
+        height:30vw;
         width: 100vw;
         padding-top: 10vh;
-        background-image: url(../assets/IMG_1542.JPG);
-        background-size:contain;
+        
+        
         
     
-        background-color: #091225;   
+        background-color: #121619;   
+    }
+    .footerContainer img{
+        width: 100vw;
+        filter: contrast(0.25);
+        
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        
     }
     .leftheaderContainer {
         display:flex;
@@ -223,7 +316,7 @@
         padding-top: 0vh;
         background-size: auto;
         /**background-image: url(../assets/Campus_Aerial_View_2.jpeg);**/
-        background-color: #0d1b38;
+        background-color: #121619;
         /**background-color: #1c3b7b;**/
         
         

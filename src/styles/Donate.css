@@ -14,10 +14,10 @@
     
 }
 .DonatePage{
-    background-color: #11244b;
+    background-color: whitesmoke;
 }
 .GFMContainer h1{
-    color: whitesmoke;
+    color: black;
     font-weight: 500;
     text-align: center;
     align-items: center;
@@ -32,14 +32,14 @@
     justify-content: center;
     height:22.55vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #11244b;
+    background-color: whitesmoke;
     border-bottom: 3px solid whitesmoke;
     margin-left:20vw;
     margin-right: 20vw;
     
 }
 .MAEFundContainer h1{
-    color: whitesmoke;
+    color: black;
     font-weight: 500;
     text-align: center;
     align-items: center;
@@ -55,7 +55,7 @@
     justify-content: center;
     height:40vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #11244b;
+    background-color: whitesmoke;
     
 }
 

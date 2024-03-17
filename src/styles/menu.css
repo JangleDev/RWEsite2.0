@@ -1,5 +1,5 @@
 .Team{
-  background-color: 	#11244b;
+  background-color: 	whitesmoke;
   padding-top: 10vh;
   padding-bottom: 10vh;
   
@@ -23,7 +23,7 @@
   height: 30vh;
   width: 100vw;
   /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-  background-color: #0d1b38;
+  background-color: black;
   /**border-bottom: 3px solid whitesmoke;**/
 }
   

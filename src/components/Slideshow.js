@@ -1,32 +1,30 @@
-import React from 'react'
-
+import React from 'react';
+import {Carousel} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import '../styles/Slideshow.css'
 
-import Slider1 from '../assets/Slider/slider1.jpeg'
-import Slider2 from '../assets/Slider/slider2.jpeg'
-import Slider3 from '../assets/Slider/slider3.jpeg'
+import Slider1 from '../assets/IMG_8904.png'
+import Slider2 from '../assets/IMG_5241.png'
+import Slider3 from '../assets/P1010084.JPG'
 import Slider4 from '../assets/Slider/slider4.jpeg'
 import Slider5 from '../assets/Slider/slider5.jpeg'
 
+
+
 function Slideshow() {
   return (
-    <div class="slider-frame">
-        <div class="img-container">
-            <img src={Slider1}/>
-        </div>
-        <div class="img-container">
-            <img src={Slider2}/>
-        </div>
-        <div class="img-container">
-            <img src={Slider3}/>
-        </div>
-        <div class="img-container">
-            <img src={Slider4}/>
-        </div>
-        <div class="img-container">
-            <img src={Slider5}/>
-        </div>
-    </div>
+    <Carousel showIndicators={false} centerSlidePercentage={100}showThumbs={false} showStatus={false} autoPlay infiniteLoop centerMode className='main-slide'>
+                <div>
+                    <img src={Slider3} />
+                </div>
+                <div>
+                    <img src={Slider1} />
+                   
+                </div>
+                <div>
+                    <img src={Slider2} />
+                </div>
+            </Carousel>
   )
 }
 

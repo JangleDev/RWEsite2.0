@@ -1,40 +1,19 @@
-.slider-frame{
-    overflow: hidden;
-    height: 2000px;
-    width: 2000px;
-    margin-left: 5vw;
-    margin-top: 5vh;
+.main-slide{
+    padding-left: 5vw;
+    padding-top: 17vh;
+    width: 60vw;
+}
+.carousel .slider-wrapper{
+    width: 50%;
 }
 
-@-webkit-keyframes slide_animation{
-    0% {left:0px;}
-    10% {left:0px;}
-    20% {left:1200px;}
-    30% {left: 1200px;}
-    40% {left: 2400px;}
-    50% {left: 2400px;}
-    60% {left: 1200px;}
-    70% {left: 1200px;}
-    80% {left: 0px;}
-    90% {left: 0px;}
-    100% {left: 0px;}
+
+.carousel .thumb{
+    width: 5%;
+    height: 3vh;
 }
 
-.slide-images{
-    width: 3500px;
-    height: 800px;
-    margin: 0 0 0 -2400px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duraiton: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-}
-
-.img-container{
-    height: 800px;
-    width: 1200px;
-    position: relative;
-    float: left;
+.carousel{
+    text-align: center;
+    
 }

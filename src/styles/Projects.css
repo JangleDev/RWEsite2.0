@@ -1,5 +1,5 @@
 .projects{
-    background-color: #11244b;  
+    background-color: whitesmoke;  
 }
 
 .projHeader {
@@ -10,7 +10,7 @@
     padding-top: 10vh;
     height:25vh;
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #0d1b38;
+    background-color: black;
     padding-bottom: 50px;
     /**border-bottom: 3px solid whitesmoke;**/
   }
@@ -70,12 +70,10 @@
     margin-top: 10vh;
     margin-right: 7.5vw;
     width: 85vw;
-    border-top: 3px solid #e79671;
     
-    border-left: 3px solid #e79671;
     
     /**background-image: url(../assets/Campus_Aerial_View_2_blurry.jpeg);**/
-    background-color: #11244b;
+    background-color: whitesmoke;
     
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -97,7 +95,7 @@
     padding-right: 2.5vw;
     font-weight: lighter;
     font-size: 30px;
-    color: whitesmoke;
+    color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
     text-align: left;
     
@@ -116,7 +114,7 @@
     justify-content: left;
     height:40vw;
     width: 85vw;
-    background-color: #11244b;
+    background-color: whitesmoke;
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     
@@ -130,7 +128,7 @@
     justify-content: center;
     height:40vw;
    
-    background-color: #11244b;
+    background-color: whitesmoke;
 }
 .projectsContentContainer .pccLeft .pccLeftHead {
     padding-bottom: 2.5vh;
@@ -143,7 +141,7 @@
     padding-left: 2.5vw;
     font-size: 30px;
     font-weight: bolder;
-    color: #e07645;
+    color: black;
     line-height: 1;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
     
@@ -152,7 +150,7 @@
     align-items:center;
     
     justify-content: center;
-    background-color: #11244b;
+    background-color: whitesmoke;
     height:40vw;
     width: 40vw;
    
@@ -162,7 +160,7 @@
     width: 35vw;
     height: 30vw;
     margin-top: 5vw;
-    border: 3px solid #e07645;
+   
    
 }
 .projectsContentContainer .pccLeft h3{
@@ -171,7 +169,7 @@
     margin:0;
     font-weight: lighter;
     font-size: 30px;
-    color: #e79671;
+    color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
     text-align: center;
     
@@ -222,7 +220,7 @@
         padding-right: 2.5vw;
         font-weight: lighter;
         font-size: 29.5px;
-        color: #e79671;
+        color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
         text-align: center;
     }
@@ -235,7 +233,7 @@
         padding-right: 2.5vw;
         font-weight: lighter;
         font-size: 26px;
-        color: #e79671;
+        color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
         text-align: center;
     }
@@ -249,7 +247,7 @@
         padding-right: 2.5vw;
         font-weight: lighter;
         font-size: 24px;
-        color: #e79671;
+        color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
         text-align: center;
     }
@@ -261,7 +259,7 @@
         padding-right: 2.5vw;
         font-weight: lighter;
         font-size: 22px;
-        color: #e79671;
+        color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
         text-align: center;
     }
@@ -274,7 +272,7 @@
         padding-right: 2.5vw;
         font-weight: lighter;
         font-size: 20px;
-        color: #e79671;
+        color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
         text-align: center;
     }
@@ -288,7 +286,7 @@
         padding-right: 2.5vw;
         font-weight: lighter;
         font-size: 18px;
-        color: #e79671;
+        color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
         text-align: center;
     }
